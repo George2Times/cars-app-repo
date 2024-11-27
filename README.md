@@ -36,7 +36,7 @@ This is a frontend web application built with Angular. The Cars App allows users
 1. **Clone the repository**:
 
     ```bash
-    git clone <repository-url>
+    git clone git@github.com:George2Times/cars-app-repo.git
     cd cars-app-repo
     ```
 
