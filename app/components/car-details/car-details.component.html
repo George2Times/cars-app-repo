@@ -1,0 +1,23 @@
+<h2>Car Details</h2>
+<div>
+  <label>
+    Name: <input [(ngModel)]="car.name" id="car-name" />
+  </label>
+  <label>
+    Model: <input [(ngModel)]="car.model" id="car-model" />
+  </label>
+  <button (click)="saveCar()">Save</button>
+  <button (click)="deleteCar()">Delete Car</button>
+
+  <h3>Services</h3>
+  <div *ngFor="let service of car.services; let i = index">
+    <label>
+      Part: <input [(ngModel)]="service.part" id="service-part"/>
+    </label>
+    <label>
+      Cost: <input type="number" [(ngModel)]="service.cost" id="service-cost"/>
+    </label>
+    <button (click)="deleteService(i)">Delete Service</button>
+  </div>
+  <button (click)="addService()">Add Service</button>
+</div>

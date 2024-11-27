@@ -1,0 +1,10 @@
+<h2>Car List</h2>
+<div *ngFor="let car of cars">
+  <li>
+    {{ car.name }} ({{ car.model }})
+    <p>Liczba usług: {{ car.services.length }}</p>
+    <button [routerLink]="['/car-details']" [queryParams]="{ id: car.id }">View Details</button>
+    <button *ngIf="car.id !== undefined" (click)="deleteCar(car.id)">Delete Car</button>
+  </li>
+</div>
+<button [routerLink]="['/car-details']">Add New Car</button>

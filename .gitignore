@@ -1,0 +1,112 @@
+# General Entries
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+*.out
+*.err
+logs/
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.save
+
+# Test and coverage files
+coverage/
+*.lcov
+.nyc_output/
+.junit/
+.pytest_cache/
+
+# Compiled files
+*.class
+*.o
+*.so
+
+# Deployment and build files
+dist/
+build/
+*.egg
+
+# Cache directories
+.cache/
+.pip-cache/
+.tox/
+
+# Generated assets
+staticfiles/
+assets/
+
+# Angular (Frontend):
+dist/
+out-tsc/
+.angular/
+node_modules/
+coverage/
+
+# E2E Testing Tools:
+**/cypress/screenshots/
+**/cypress/videos/
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore Cypress example folders
+cypress/e2e/1-getting-started/
+cypress/e2e/2-advanced-examples/
